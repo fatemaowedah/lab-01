@@ -1,0 +1,64 @@
+header{
+    background-color: rebeccapurple;
+}
+#firstBox{
+    background-color: purple;
+}
+#SecondBox{
+    background-color: powderblue;
+
+}
+nav{
+    background-color: rosybrown;
+}
+footer{
+    background-color: orange;
+}
+#Box1{
+    background-color: royalblue;
+   
+}
+#Box2{
+    background-color: saddlebrown;
+}
+#Box3{
+    background-color: seagreen;
+    
+}
+#Box4{
+    background-color: tan;
+}
+
+@media only screen and (min-width:768px){
+
+    header{
+        background-color: pink;
+    }
+    #firstBox{
+        background-color: indigo;
+    }
+    #SecondBox{
+        background-color: seagreen;
+    
+    }
+    nav{
+        background-color: brown;
+    }
+    footer{
+        background-color: yellowgreen;
+    }
+    #Box1{
+        background-color: tomato;
+       
+    }
+    #Box2{
+        background-color: rebeccapurple;
+    }
+    #Box3{
+        background-color: aqua;
+        
+    }
+    #Box4{
+        background-color: whitesmoke;
+    }
+}

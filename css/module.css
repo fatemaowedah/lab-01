@@ -1,0 +1,32 @@
+
+section div{
+    width: 50% ;
+    float:left;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    border:1px solid black;
+    border-top: 0px
+}
+.clear{
+    clear:both;
+}
+#Box1,#Box3{ border-right:0px;}
+#firstBox,#SecondBox{
+border: 1px solid black;
+border-top: 0px;
+}
+@media only screen and (min-width:768px) {
+    #Box1{
+        border-left:0px
+    }
+    #Box2{
+        border-right:0px
+    }
+    #firstBox,#SecondBox{
+        border-left:0px
+    }
+    section div{
+        width:25%;
+    }
+}
