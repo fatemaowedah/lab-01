@@ -1,4 +1,4 @@
-header{
+#header{
     background-color: rebeccapurple;
 }
 #firstBox{
@@ -8,10 +8,10 @@ header{
     background-color: powderblue;
 
 }
-nav{
+#nav{
     background-color: rosybrown;
 }
-footer{
+#footer{
     background-color: orange;
 }
 #Box1{
@@ -29,36 +29,82 @@ footer{
     background-color: tan;
 }
 
-@media only screen and (min-width:768px){
+@media (min-width: 481px) and (max-width: 768px) {
 
-    header{
+    #header {
         background-color: pink;
     }
-    #firstBox{
+
+    #firstBox {
         background-color: indigo;
     }
-    #SecondBox{
+
+    #SecondBox {
         background-color: seagreen;
-    
     }
-    nav{
+
+    #nav {
         background-color: brown;
     }
-    footer{
+
+    #footer {
         background-color: yellowgreen;
     }
-    #Box1{
+
+    #Box1 {
         background-color: tomato;
-       
     }
-    #Box2{
+
+    #Box2 {
         background-color: rebeccapurple;
     }
-    #Box3{
+
+    #Box3 {
         background-color: aqua;
-        
     }
-    #Box4{
+
+    #Box4 {
         background-color: whitesmoke;
+    }
+}
+
+
+
+@media  and (max-width: 480px) {
+
+    #header {
+        background-color: aqua;
+    }
+
+    #firstBox {
+        background-color: olive;
+    }
+
+    #SecondBox {
+        background-color: teal;
+    }
+
+    #nav {
+        background-color: blueviolet;
+    }
+
+    #footer {
+        background-color: skyblue;
+    }
+
+    #Box1 {
+        background-color: chocolate;
+    }
+
+    #Box2 {
+        background-color: steelblue;
+    }
+
+    #Box3 {
+        background-color: silver;
+    }
+
+    #Box4 {
+        background-color: rosybrown;
     }
 }

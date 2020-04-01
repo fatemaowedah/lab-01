@@ -1,13 +1,3 @@
-
-section div{
-    width: 50% ;
-    float:left;
-    height: 250px;
-    text-align: center;
-    line-height: 250px;
-    border:1px solid black;
-    border-top: 0px
-}
 .clear{
     clear:both;
 }
@@ -27,6 +17,5 @@ border-top: 0px;
         border-left:0px
     }
     section div{
-        width:25%;
     }
 }
